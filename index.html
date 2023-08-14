@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tebak Angka</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Halo, aku sudah memikiran angka random, dapatkah kamu menebaknya?</h1>
+      <h3>
+        Inputkan Angka Tebakan Kamu dari <span>1</span> hingga <span>100</span>
+      </h3>
+      <input id="guess" type="text" placeholder="Angka" />
+      <button onclick="guess()" id="btn-guess">TEBAK</button>
+      <p id="msg1">Total tebakan : 0</p>
+      <p id="msg2">Angka yang ditebak adalah : Tidak ada</p>
+      <p id="msg3"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
