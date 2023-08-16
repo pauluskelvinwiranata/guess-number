@@ -80,15 +80,15 @@ body {
     margin-inline: auto;
   }
 
-  .wrapper h1 {
-    font-size: 25px;
-  }
-
   .wrapper h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
-  .wrapper p{
-    font-size: 14px;
+  .wrapper h3 {
+    font-size: 13px;
+  }
+
+  .wrapper p {
+    font-size: 12px;
   }
 }
