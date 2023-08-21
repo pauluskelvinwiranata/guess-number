@@ -62,7 +62,6 @@ body {
   padding: 10px;
   text-align: center;
   outline: 0;
-  border: 1px solid black;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -72,6 +71,7 @@ body {
   background-color: #1a5d1a;
   color: #fff;
   margin-bottom: 20px;
+  border: 0;
 }
 
 h3 {
